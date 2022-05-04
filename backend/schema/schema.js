@@ -1,6 +1,7 @@
 const GET_ANIME_LIST = `query Page($page: Int) {
     Page(page: $page, perPage: 50) {
         media {
+            id
             title {
                 english
                 native
