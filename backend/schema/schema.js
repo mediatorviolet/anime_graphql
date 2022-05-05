@@ -12,6 +12,14 @@ const GET_ANIME_LIST = `query Page($page: Int) {
             genres
             popularity
             isAdult
+            description
+            duration
+            episodes
+            startDate {
+                year
+                month
+                day
+            }
         }
     }
 }`
